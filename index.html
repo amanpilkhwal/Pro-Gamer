@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pro-Gamer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Games Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">Pro- <span>Gamer</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="pc.html">PC</a></li>
+										<li><a href="ps.html">PS4</a></li>
+										<li><a href="android.html">Android</a></li>
+										<li><a href="#contact" class="scroll">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Battlefield1</h3>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Witcher3</h3>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Uncharted4</h3>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal2">Read More</a>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Welcome</h2>
+					<p>Pro-Gamer is a website that was build with the aim to tell gamers about the best games and their basic requirements for various platforms.It provides you the details and description of best current games from which you can decide it is worth buying or not or worth spending time to play.</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- //about --> 
+	<!-- markets -->
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Services</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>PC</h5>
+							<p>We provide you the information about the top FIVE current games of PC and the specifications required.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>PS4</h5>
+							<p>We provide you the top FIVE current games of PS4 and provide you the link of the trailer to take a glimpse of the game.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Android</h5>
+							<p>We provide you the top FIVE current games of Android and provide the link to download it.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				
+	</div>
+	<!-- //markets -->
+	<!-- portfolio -->
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> <br><br>
+				<h3>Games</h3> 
+			</div>
+			<br><br>
+
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/f.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/f.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Fallout 4</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/fifa.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/fifa.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>FIFA 17</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="images/h.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/h.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Mafia 3</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<a href="images/j.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/j.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Farcry 4</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/pa.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/pa.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Uncharted 4</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/pc.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/pc.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Bloodborne</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
+					<a href="images/pd.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/pd.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Last of Us</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/pf.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/pf.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Destiny</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/witcher.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/witcher.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Witcher 3</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //portfolio -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title"> Battlefield 1</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/b.jpg" alt="" />
+						<p>Battlefield 1 is a first-person shooter video game developed by EA DICE and published by Electronic Arts. Despite its name, Battlefield 1 is the fifteenth installment in the Battlefield series, and the first main entry in the series since Battlefield 4. The game was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One on October 21, 2016.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="myModal1" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title"> Witcher3</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/w.jpg" alt="" />
+						<p>Play as a highly trained Monster Slayer for hire Trained from early childhood and mutated to have superhuman skills, strength and reflexes, witchers are a socially ostracized counterbalance to the monster-infested world in which they live. Gruesomely destroy foes as a professional monster hunter armed with a range of upgradeable weapons, mutating potions and combat magic.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title"> Uncharted 4</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/pa.jpg" alt="" />
+						<p>Uncharted 4: A Thief's End is an action-adventure video game developed by Naughty Dog and published by Sony Computer Entertainment for PlayStation 4. It was released worldwide on May 10, 2016. Following Uncharted 3: Drake's Deception, it is the final installment in the Uncharted series featuring protagonist Nathan Drake.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-6 amet-sed"> 
+					<div class="footer-title">
+						<h3>About Us</h3>
+					</div> 
+					<p>Pro-Gamer is a website that was build with the aim to tell gamers about the best games and their basic requirements for various platforms.It provides you the details and description of best current games from which you can decide it is worth buying or not or worth spending time to play.</p>
+				</div>
+				<div class="col-md-6 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3 id="contact">Contact</h3>
+					</div> 
+					<p><a>PHONE NO.-- XXXXXXXXXX</a> </p>
+					<p><a>E-MAIL-- as.pilkhwal@gmail.com</a> </p>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer --> 
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">© 2017 Pro-Gamer </p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+</body>	
+</html>
